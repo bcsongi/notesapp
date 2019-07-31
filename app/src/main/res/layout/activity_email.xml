@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:stretchColumns="1">
+
+    <TableRow android:layout_width="wrap_content">
+        <TextView
+            android:layout_column="1"
+            android:text="@string/lblFrom"
+            android:layout_width="wrap_content"
+            android:gravity="right"/>
+        <EditText
+            android:id="@+id/noteFrom"
+            android:width="200dp"/>
+    </TableRow>
+
+
+    <TableRow>
+        <TextView
+            android:layout_column="1"
+            android:text="@string/lblTo"
+            android:layout_width="wrap_content"
+            android:gravity="right"/>
+        <EditText
+            android:id="@+id/noteTo"
+            android:width="200dp"/>
+    </TableRow>
+
+
+    <TableRow>
+        <TextView
+            android:layout_column="1"
+            android:text="@string/lblPassword"
+            android:layout_width="wrap_content"
+            android:gravity="right"/>
+        <EditText
+            android:id="@+id/notePassword"
+            android:width="200dp"
+            android:password="true" />
+    </TableRow>
+
+
+    <TableRow>
+        <Button
+            android:id="@+id/btnSendEmail"
+            android:layout_column="1"
+            android:text="@string/btnSend"
+            android:layout_width="wrap_content"
+            android:gravity="right"/>
+        <Button
+            android:id="@+id/btnCancelCreatenote"
+            android:text="@string/btnCancel"
+            android:layout_width="wrap_content"
+            android:gravity="left"/>
+    </TableRow>
+
+</TableLayout>

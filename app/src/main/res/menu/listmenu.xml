@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/itemCreatenote"
+          android:title="@string/itemCreatenote"/>
+    <item android:id="@+id/itemDeleteAllDB"
+          android:title="Delete all db"/>
+</menu>

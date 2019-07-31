@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Notes</string>
+    
+    <string name="itemCreatenote">Create new note</string>
+    
+    <string name="lblnoteTitle">Title:</string>
+    <string name="lblnotePriority">Priority:</string>
+    <string name="lblnoteDueDate">Due date:</string>
+    <string name="lblnoteDescription">Description:</string>
+    
+    <string name="btnOk">Ok</string>
+    <string name="btnCancel">Cancel</string>
+
+    <string name="lblFrom">From:</string>
+    <string name="lblTo">To:</string>
+    <string name="lblPassword">Password:</string>
+    <string name="btnSend">Send</string>
+    <string name="ASD">ASD</string>
+</resources>
+
